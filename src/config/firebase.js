@@ -12,6 +12,6 @@ fireAdmin.initializeApp({
 });
 
 const firestore = fireAdmin.firestore();
-const messaging = fireAdmin.messaging();
+const fireMessaging = fireAdmin.messaging();
 
-module.exports = { fireAdmin }
+module.exports = { fireAdmin, firestore, fireMessaging }
